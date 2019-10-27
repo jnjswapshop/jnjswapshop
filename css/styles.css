@@ -137,8 +137,8 @@ main p {
 
 #reviewsPic {
 	display: block;
-	margin-left: 7%;
 	padding-bottom: 4em;
+	width: 100%;
 }
 
 #frmRewards {
@@ -178,9 +178,14 @@ main p {
 	padding-top: 2em;
 }
 
+#contacts {
+	text-align: center;
+}
+
 #contact a {
 	font-family: "hemi_head_426", verdana, sans-serif;
 	font-size: 1em;
+	text-align: center;
 	margin-left: 42%;
 	text-decoration: none;
 	color: #000000;
