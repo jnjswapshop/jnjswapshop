@@ -1,0 +1,199 @@
+@font-face {
+font-family: hemi_head_426;
+src: url("hemihead.ttf") /* TTF file for CSS3 browsers */
+}
+
+body {
+	background-image: url("../images/jjbackground.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: flex;
+  color: #50158C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "hemi_head_426", verdana, sans-serif;
+  font-weight: bold;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  font-style: italic;
+  border-bottom: 3px solid black;
+}
+
+.navbar img {
+	float: left;
+	width: 5%;
+	height: 5%;
+	border-radius: 50%;
+	padding-top: 0.3em;
+}
+
+main {
+	display: block;
+}
+
+main h1 {
+	margin-top: 4em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 3.5em;
+	font-family: "hemi_head_426", verdana, sans-serif;
+	color: #50158C;
+}
+
+main p {
+	font-family: "hemi_head_426", verdana, sans-serif;
+	font-size: 1em;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+#button1 .btn {
+	display: block;
+	border-radius: 4px;
+	background-color: transparent;
+	border-color: #000000;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: "hemi_head_426", verdana, sans-serif;
+	margin-left: 45%;
+	margin-right: 40%;
+	margin-top: 5%;
+}
+
+#button1 .btn:hover {
+	background-color: #50158C;
+	color: #FFFFFF;
+}
+
+#newitems {
+	display: block;
+	background-color: #FFFFFF;
+}
+
+#newitems h1 {
+	padding-top: 2em;
+}
+
+#newitems p {
+	text-align: center;
+}
+
+.fb-page {
+	padding-top: 1em;
+	margin-left: 38%;
+	padding-bottom: 4em;
+}
+
+#gallery {
+	display: block;
+}
+
+#gallery h1 {
+	margin-bottom: 2em;
+}
+
+#doors {
+	margin-left: 15%;
+}
+
+#lenny {
+	height: 225px;
+	width: 230px;
+}
+
+#storefront {
+	margin-left: 15%;
+	height: 500px;
+	width: 920px;
+}
+
+#reviews {
+	background-color: #FFFFFF;
+	background-size: 100%;
+}
+
+#reviews h1 {
+	padding-top: 2em;
+}
+
+#reviewsPic {
+	display: block;
+	margin-left: 7%;
+	padding-bottom: 4em;
+}
+
+#frmRewards {
+	padding-top: 2em;
+	text-align: center;
+	font-family: "hemi_head_426", verdana, sans-serif;
+	font-size: 1.5em;
+}
+
+#txtFirstName {
+	font-family: "hemi_head_426", verdana, sans-serif;
+	font-size: 0.75em;
+}
+
+#txtLastName {
+	font-family: "hemi_head_426", verdana, sans-serif;
+	font-size: 0.75em;
+}
+
+#btnSubmitRewards {
+	border-radius: 4px;
+	background-color: transparent;
+	border-color: #000000;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: "hemi_head_426", verdana, sans-serif;
+}
+
+#contact {
+	background-color: #FFFFFF;
+	display: block;
+	height: 350px;
+}
+
+#contact h1 {
+	padding-top: 2em;
+}
+
+#contact a {
+	font-family: "hemi_head_426", verdana, sans-serif;
+	font-size: 1em;
+	margin-left: 42%;
+	text-decoration: none;
+	color: #000000;
+}
+
+#facebook {
+	margin-left: 7%;
+	padding-top: 1.25em;
+	height: 30px;
+	width: 30px;
+}
+
+footer {
+	width: 100%;
+	float: left;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>J&J Swap Shop</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+	
+		<div id="fb-root"></div>
+			<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
+			
+		<div class="navbar">
+			<img src="images/logo.jpg">
+			<a href="index.html"></a>
+			<a href="#contact">Contact Us</a>
+			<a href="#rewards">Rewards</a>
+			<a href="#reviews">Reviews</a>
+			<a href="#gallery">Gallery</a>
+			<a href="#newitems">New Items</a>
+		</div>
+		
+	<main>
+	
+		<h1>J&J Swap Shop</h1>
+		<p>J&J Swap Shop opened up in 2012 and has been buying, selling, and trading ever since. We buy and sell various items such as: electronics, tools, games, movies, bikes, and an assortment of other items.<br><br>
+		To view items newly in the store, please click the button below:</p>
+		
+		<div id="button1">
+		<button class="btn view" onClick="location.href='#newitems'" type="button">New Items</button>
+		</div>
+		
+		<div id="newitems">
+		<h1>Newly in the Store:</h1>
+		<p>We try to post all of the new items that come into the store on our Facebook page, but sometimes not all of them get posted. Please stop in to take a look around at all of the current in stock items.</p>
+		
+		<div class="fb-page" data-href="https://www.facebook.com/JJSwapShop" data-tabs="timeline,messages" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/JJSwapShop" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/JJSwapShop">J &amp; J Swap Shop</a></blockquote></div>
+
+		</div>
+		
+		<div id="gallery">
+		<h1>Gallery</h1>
+			<img src="images/doors.jpg" alt="Doors" id="doors">
+			<img src="images/dvds.jpg" alt="DVDs" id="dvds">
+			<img src="images/frontroom.jpg" alt="Front Room" id="frontroom">
+			<img src="images/lenny.jpg" alt="Lenny" id="lenny">
+			<img src="images/storefront.jpg" alt="Store Front" id="storefront">
+		</div>
+		
+		<div id="reviews">
+		<h1>Reviews</h1>
+		<img src="images/reviews.jpg" alt="Reviews" id="reviewsPic">
+		</div>
+		
+		<div id="rewards">
+		<h1>J&J Rewards</h1>
+		<p>J&J Swap Shop has a new rewards program that gives you 20% off of ALL future purchases once you spend $500.00 (tax excluded) in the store. Sign up below or stop in the store to join.</p>
+		<form id="frmRewards" method="post" action="mailto:jnjswapshop@gmail.com?subject=New JJ Rewards Customer">
+			<div data-role="fieldcontain">
+				<div data-role="fieldcontain">
+					<label for="txtFirstName">First Name: </label>
+					<input type="text" placeholder="First Name" name="txtFirstName" data-mini="false" id="txtFirstName" value="" required>
+				</div>
+				<div data-role="fieldcontain">
+					<label for="txtLastName">Last Name: </label>
+					<input type="text" placeholder="Last Name" name="txtLastName" data-mini="false" id="txtLastName" value="" required>
+				</div>
+			</div>
+			<br><input type="submit" id="btnSubmitRewards" value="Submit" data-inline="true">
+		</form>
+		</div>
+		
+		<div id="contact">
+		<h1>Contact Us</h1>
+		<a href="https://goo.gl/maps/RcHae511qMyiuC4L8">Need directions? Click here.</a>
+		<a href="https://www.facebook.com/profile.php?id=100018960648467">
+			<img src="images/facebook.png" alt="Facebook" id="facebook">
+		</a>
+		</div>
+		
+		<footer>
+		<div id="copyright">
+			<p>&copy; Copyright 2019. All Rights Reserved.</p>
+		</div>
+	
+		<div id="design">
+			<p>Website Designed By: McKenzie McPeek</p>
+		</div>
+		</footer>
+		
+	</main>
+	</body>
+</html>
+			
