@@ -86,7 +86,7 @@ main p {
 
 #newitems {
 	display: block;
-	background-color: #FFFFFF;
+	background-color: #000000;
 }
 
 #newitems h1 {
@@ -95,6 +95,7 @@ main p {
 
 #newitems p {
 	text-align: center;
+	color: #FFFFFF;
 }
 
 .fb-page {
