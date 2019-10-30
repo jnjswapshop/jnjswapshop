@@ -22,7 +22,7 @@ body {
 .navbar a {
   float: right;
   display: flex;
-  color: #FFFF00;
+  color: #FFF200;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -54,7 +54,7 @@ main h1 {
 	font-weight: bold;
 	font-size: 3.5em;
 	font-family: "hemi_head_426", verdana, sans-serif;
-	color: #FFFF00;
+	color: #FFF200;
 }
 
 main p {
@@ -80,7 +80,7 @@ main p {
 }
 
 #button1 .btn:hover {
-	background-color: #FFFF00;
+	background-color: #FFF200;
 	color: #000000;
 }
 
