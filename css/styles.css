@@ -12,7 +12,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #000000;
+  background-color: transparent;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -86,7 +86,7 @@ main p {
 
 #newitems {
 	display: block;
-	background-color: #000000;
+	background-color: #FFFFFF;
 }
 
 #newitems h1 {
@@ -95,7 +95,7 @@ main p {
 
 #newitems p {
 	text-align: center;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 .fb-page {
@@ -128,7 +128,7 @@ main p {
 }
 
 #reviews {
-	background-color: #000000;
+	background-color: #FFFFFF;
 	background-size: 100%;
 }
 
@@ -170,13 +170,9 @@ main p {
 }
 
 #contact {
-	background-color: #000000;
+	background-color: #FFFFFF;
 	display: block;
 	height: 350px;
-}
-
-#contact p {
-	color: #FFFFFF;
 }
 
 #contact h1 {
