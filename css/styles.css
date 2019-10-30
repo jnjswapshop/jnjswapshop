@@ -12,7 +12,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: transparent;
+  background-color: #000000;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -128,7 +128,7 @@ main p {
 }
 
 #reviews {
-	background-color: #FFFFFF;
+	background-color: #000000;
 	background-size: 100%;
 }
 
@@ -170,9 +170,13 @@ main p {
 }
 
 #contact {
-	background-color: #FFFFFF;
+	background-color: #000000;
 	display: block;
 	height: 350px;
+}
+
+#contact p {
+	color: #FFFFFF;
 }
 
 #contact h1 {
