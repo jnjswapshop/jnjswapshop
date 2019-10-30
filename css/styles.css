@@ -4,7 +4,7 @@ src: url("hemihead.ttf") /* TTF file for CSS3 browsers */
 }
 
 body {
-	background-image: url("../images/jnjbackground.jpg");
+	background-image: url("../images/jjbackground.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
